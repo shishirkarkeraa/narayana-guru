@@ -9,7 +9,9 @@
                     <button class="dashboard" onclick="grantaccess()">ಅಧಿಕಾರ ನೀಡಿ</button>
                     <button class="dashboard" onclick="ledgerreportentry()"> ಲೆಡ್ಜೆರ್ ವರದಿ ರಚಿಸಿ</button>
                     <button class="dashboard" onclick="membershipentry()">ಮೆಂಬರ್ಶಿಪ್ ಎಂಟ್ರಿ</button>
-                    <button class="dashboard" onclick="ledgerreportdisplay()">ಲೆಡ್ಜೆರ್ ವರದಿ</button>    
+                    <button class="dashboard" onclick="ledgerreportdisplay()">ಲೆಡ್ಜೆರ್ ವರದಿ</button>
+                    <button class="dashboard" onclick="datastore()">ಡ್ರೈವ್</button>
+
                 </div>
             </div>
         </div>

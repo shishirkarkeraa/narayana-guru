@@ -61,3 +61,6 @@ function hallbooking() {
 function uploadgallery() {
     window.location.href = '../php/upload_gallery.php';
 }
+function datastore() {
+    window.location.href = '../php/data_store.php';
+}

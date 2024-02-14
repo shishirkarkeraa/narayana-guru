@@ -13,7 +13,6 @@
         <link rel="stylesheet" href="../css/tablet.css">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
         <script src="../javascript/linker.js"></script>
-        <script src="../javascript/session.js"></script>
         <script src="../javascript/restrict.js"></script>
         <script src="../javascript/index.js"></script>
 

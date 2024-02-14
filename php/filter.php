@@ -26,13 +26,15 @@ if ($result->num_rows > 0) {
     echo "<table border='1'>";
     echo "<tr><th>ಫೋಟೋ</th><th>ಹೆಸರು </th><th>ಅಡ್ರೆಸ್ </th><th>ಪ್ರಕಾರ</th><th>ಸೇರುವ ದಿನಾಂಕ</th><th>ರಶೀದಿ ಸಂಖ್ಯೆ</th>";
     
+    
     if ($option == 'alive' && $option !== 'dead') {
         echo "<th>ಮುಕ್ತಾಯ ದಿನಾಂಕ</th>";
     }
     if ($option !== 'yearly') {
         echo "<th>ಸ್ಥಿತಿ</th>";
     }
-    echo "<th>ರಶೀದಿ ಸಂಖ್ಯೆ</th>";
+
+        echo "<th>ನವೀಕರಣ</th>";
     echo "</tr>";
     
     while ($row = $result->fetch_assoc()) {
@@ -64,9 +66,8 @@ if ($result->num_rows > 0) {
             }
             echo "<td>" . $Lkannada . "</td>";
         }
-        if ($option == 'all'){
             echo "<td><a href='../php/updatemembership.php?receiptnumber=$row[receipt_number]'>Update</a> | <a href='../php/processdeletemembership.php?receiptnumber=$row[receipt_number]' onclick=\"return confirm('ಈ ದಾಖಲೆಯನ್ನು ಅಳಿಸಲು ನೀವು ಖಚಿತವಾಗಿ ಬಯಸುವಿರಾ?');\">Delete</a></td>";
-        }
+
         echo "</tr>";
     }
     

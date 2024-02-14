@@ -17,14 +17,11 @@ if (isset($_GET['id'])) {
             // Delete the database entry
             $deleteQuery = "DELETE FROM datastore WHERE id = $fileId";
             $conn->query($deleteQuery);
+            header('Location: success.php');
         }
     }
 }
 
-// Close the database connection
 $conn->close();
-
-// Redirect back to view_files.php after deleting the file
-header('Location: success.php');
 exit();
 ?>
