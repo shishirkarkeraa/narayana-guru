@@ -16,7 +16,6 @@
                 <p id="login-status"></p>
                 <div class="createaccount"><button id="newaccount" onclick="registerpage()">Create Account</button></div>
             </div>
-            <script src="../javascript/key.js"></script>
         </div>
     </div>
 <?php require '../php/footer.php'; ?>

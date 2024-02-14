@@ -17,10 +17,10 @@ if ($result->num_rows > 0) {
         
         echo "</ul></div>";
     } else {
-        echo "No upcoming dates found.";
+        echo "<p id='note'>ಯಾವುದೇ ಮುಂಬರುವ ದಿನಾಂಕಗಳು ಕಂಡುಬಂದಿಲ್ಲ</p>";
     }
 } else {
-    echo "No upcoming dates found.";
+    echo "<p id='note'>ಯಾವುದೇ ಮುಂಬರುವ ದಿನಾಂಕಗಳು ಕಂಡುಬಂದಿಲ್ಲ</p>";
 }
 
 
