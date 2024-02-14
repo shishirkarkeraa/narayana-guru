@@ -63,7 +63,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     if ($row['is_admin'] == 1) {
                         $_SESSION['admin'] = true;
                     }
-                    header("Location: adminindex.php");
+                    header("Location: adminindex.php");                    
                     exit();
                 } else {
                     $error = "Invalid password!";
