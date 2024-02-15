@@ -11,6 +11,7 @@ function toggleFields() {
     var upaddress = document.getElementById('upaddress');
     var upjoinDate = document.getElementById('upjoinDate');
     var expiryDate = document.getElementById('expiryDate');
+    var photo = document.getElementById('photo');
 
     if (lifeStatus) lifeStatus.style.display = 'none';
     if (membership) membership.style.display = 'none';
@@ -18,7 +19,9 @@ function toggleFields() {
     if (upaddress) upaddress.style.display = 'none';
     if (upjoinDate) upjoinDate.style.display = 'none';
     if (expiryDate) expiryDate.style.display = 'none';
-
+    if (document.getElementById(updateType)==photo){
+        photo.style.display = 'block';
+    }
 
     if (document.getElementById(updateType)==lifeStatus) {
         document.getElementById(updateType).style.display = 'flex';

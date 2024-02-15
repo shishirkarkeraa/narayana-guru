@@ -1,8 +1,9 @@
 <?php require '../php/session.php'; ?>
 <?php require '../php/activity.php'; ?>
 <?php require '../php/adminheader.php'; ?>
+<?php require '../php/processmembership.php'; ?>
         <div class="enmembermain">
-            <form id="membershipForm" action="../php/processmembership.php" method="post">
+            <form id="membershipForm" action="../php/membershipentry.php" method="post">
                 <label for="memberName">ಹೆಸರು:</label><br>
                 <input type="text" id="name" name="name" required oninput="restrictInput3(event)"><br><br>
 

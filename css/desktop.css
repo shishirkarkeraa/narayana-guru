@@ -1225,6 +1225,10 @@
         height: 40px;
     }
 
+    #photo{
+        display: none;
+    }
+
     input#upaddress {
         width: 60vw;
         max-width: 300px;

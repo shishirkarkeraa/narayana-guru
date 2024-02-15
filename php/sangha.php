@@ -10,4 +10,15 @@
 
                 </div>
         </div>
+        <div class="maindiv">
+                <div class="info">
+                <h2 id="header">Brahmashree Narayana Guru Samaj Seva Sangh (R) Kulai</h2><br>
+                <p class="pstyle">Under the leadership of Mr. Damodar R, President of the Union of Billava Workers (R) Mangalore, with the guidance of Mr. Suvarna, on the auspicious day of 11-11-1976, the 'Brahmashree Narayana Guru Samaj Seva Sangha' was inaugurated. The primary objective of the Sangha is to promote organization, encourage education, address the financial concerns of our society through a committee, and provide moral and financial support to the weak in our society during their times of need. This Sangha is dedicated to serving society by addressing various challenges faced by it.</p class="pstyle"><br>
+                <h2 id="header">Registration of the Sangha</h2><br>
+                <p class="pstyle">The Sangha was registered on 27-10-1981 at the office of the District Registrar, Dakshina Kannada, Mangalore. Since then, this organization has been called 'Brahmashree Narayana Guru Samaj Seva Sangha (R) Kulai' and has established the 'Shashwata Bhajana' in 1992. This Sangha is actively engaged in serving society by promoting spiritual values and development.</p class="pstyle"><br>
+                <h2 id="header">Inaugural Event</h2><br>
+                <p class="pstyle">Under the guidance of Shri Shri Shri Geethananda Swamiji, the head of the Shiva Giri Mata, the inauguration ceremony for the worship of the Sangha by the sun's rays at sunrise was conducted. The morning session was chaired by Mr. Damodar R Suvarna, and during the public meeting, Shri Shri Shri Vishweshateertha Swamiji of Udupi Pejawar Mata inaugurated the Guru Mandira.</p class="pstyle"><br>
+
+                </div>
+        </div>
 <?php require '../php/footer.php'; ?>
