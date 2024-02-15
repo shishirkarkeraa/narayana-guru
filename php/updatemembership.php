@@ -38,7 +38,6 @@ $receiptNumber = isset($_GET['receiptnumber']) ? $_GET['receiptnumber'] : '';
                                 <input type="date" id="upjoinDate" name="upjoinDate" oninput="updateExpiryDate()" >
 
                                 <input type="text" id="expiryDate" name="expiryDate" placeholder="Membership expiry will update here" readonly >
-                                <label for="photo">ಫೋಟೋ:</label><br>
                                 <input id="photo" type="file" name="photo" accept="image/*"><br>
                                 
 

@@ -19,6 +19,7 @@ function toggleFields() {
     if (upaddress) upaddress.style.display = 'none';
     if (upjoinDate) upjoinDate.style.display = 'none';
     if (expiryDate) expiryDate.style.display = 'none';
+    if (photo) photo.style.display = 'none';
     if (document.getElementById(updateType)==photo){
         photo.style.display = 'block';
     }
